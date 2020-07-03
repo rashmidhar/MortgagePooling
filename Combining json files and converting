@@ -1,0 +1,18 @@
+--Used jupter notebook
+
+import json
+import glob
+
+read_files = glob.glob("*.json")
+output_list = []
+
+for f in read_files:
+    with open(f, "rb") as infile:
+        output_list.append(json.load(infile))
+
+with open("merged_file.json", "w") as outfile:
+    json.dump(output_list, outfile)
+
+import pandas as pd
+df = pd.read_json (r'merged_file.json')
+df.to_csv (r'loan_data.csv', index = None)
