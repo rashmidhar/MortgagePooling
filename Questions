@@ -1,0 +1,10 @@
+I would like to know how the rank is affecting our pooling problem as i could not find its effect on any other variables?
+I would like to know the importance of property type and if it can be a key predictor? 
+Wouldn't anova tables, pairplots and help us more in solving this issue rather than vizualization?
+Wouldn't R value caluculation help in knowing the effect of predictors on each variable so that it could help in pooling?
+What would be the standard KPI that could be used or was being used in this cases?
+What statistical techniques can you suggest me to apply from your previous experience?
+What are the type of visualizations that you would be expecting out of this data set to answer the business?
+Who are the final users of these results?
+Would you like to know the any particular impact of attributes on the pool type pool balancing type?
+According to the example given in the background if we sell the the loan to highest price 
